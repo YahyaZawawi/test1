@@ -1,0 +1,778 @@
+@import "partials/mix";
+
+#main {
+  // extra small starts
+  @include extra-small-phone-screen {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 64px;
+      width: 50%;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+      width: 245px;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 55%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+    }
+  }
+  // EXTRA SMALL ENDS
+  // SMALL STARTS
+  @include small-phone-screen {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 64px;
+      width: 50%;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+      width: 275px;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 55%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+    }
+  }
+  // SMALL ENDS
+  // LARG STARTS
+  @include larg-phone-screen {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 64px;
+      width: 50%;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+      width: 320px;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 55%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+    }
+  }
+  // LARG ENDS
+  // TAPLET STARTS
+  @include taplet {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 30px;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+      border-right: 1px solid grey;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 65%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+
+      &::after {
+        content: ' \f141';
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+    }
+  }
+  // TAPLET ENDS
+  // SMALL LAPTOP STARTS
+  @include small-laptop {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 30px;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+      border-right: 1px solid grey;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 65%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+
+      &::after {
+        content: ' \f141';
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+    }
+  }
+  // SMALL LAPTOP ENDS
+  // desk top starts
+  @include desktop-screen {
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .fa-plus {
+      margin-left: 5px;
+    }
+
+    .main__div--h4 {
+      margin-top: 30px;
+      margin-left: 20px;
+    }
+
+    .container-white {
+      background-color: white;
+      margin-top: 200px;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 20px 60px 20px 20px;
+    }
+
+    .main__new--button {
+      position: relative;
+      right: 30px;
+    }
+
+    .main__orders {
+      margin-top: 50px;
+      text-align: right;
+    }
+
+    .input-group {
+      display: inline-block;
+    }
+
+    .main__order--type {
+      margin-top: 30px;
+      border-right: 1px solid grey;
+    }
+
+    .input-new-order {
+      margin-right: 10px;
+    }
+
+    .new-order-p {
+      width: 65%;
+    }
+
+    .added__order__div {
+      text-align: right;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+
+    .fa-arrows-alt {
+      margin-left: 10px;
+
+      &:hover {
+        cursor: grab;
+      }
+
+      &::after {
+        content: ' \f141';
+      }
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+    }
+  }
+  // DESK TOP ENDS
+}
+
+#write {
+  // EXTRA SMALL STARTS
+  @include extra-small-phone-screen {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+      width: 50%;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // EXTRA SMALL ENDS
+  // SMALL STARTS
+  @include small-phone-screen {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+      width: 50%;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // SMALL ENDS
+  // LARG STARTS
+  @include larg-phone-screen {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .button {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+      width: 50%;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 65%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // LARG ENDS
+  // TAPLET STARTS
+  @include taplet {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // TAPLET  ENDS
+  // SMALL LAPTOP STARTS
+  @include small-laptop {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // SMALL LAPTOP ENDS
+  // DESKTOP STARTS
+  @include desktop-screen {
+    display: none;
+    background-color: #f8f8f8;
+    padding-bottom: 200px;
+
+    .container-white {
+      background-color: white;
+      border: 1px solid brown;
+      text-align: right;
+      padding: 50px 20px;
+    }
+
+    input {
+      width: 100%;
+      text-align: right;
+      padding-right: 10px;
+    }
+
+    label {
+      display: inline-block;
+      border-radius: 0.1rem;
+    }
+
+    .write__add--button {
+      margin-top: 10px;
+      background-color: green;
+    }
+
+    p {
+      display: inline-block;
+      border: 1px solid grey;
+      padding: 5px 10px 5px 5px;
+      width: 85%;
+      border-radius: 5px;
+      margin-bottom: 30px;
+    }
+
+    .custom-icon {
+      border: 1px solid grey;
+      border-radius: 5px;
+      padding: 8px 5px;
+      margin-left: 10px;
+    }
+  }
+  // DESKTOP ENDS
+}

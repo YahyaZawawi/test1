@@ -1,0 +1,149 @@
+@media only screen and (min-width: 320px) and (max-width: 639px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 64px; width: 50%; }
+  #main .main__orders { margin-top: 50px; text-align: right; width: 245px; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 55%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 64px; width: 50%; }
+  #main .main__orders { margin-top: 50px; text-align: right; width: 275px; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 55%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 64px; width: 50%; }
+  #main .main__orders { margin-top: 50px; text-align: right; width: 320px; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 55%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 30px; }
+  #main .main__orders { margin-top: 50px; text-align: right; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; border-right: 1px solid grey; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 65%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main .fa-arrows-alt::after { content: ' \f141'; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 30px; }
+  #main .main__orders { margin-top: 50px; text-align: right; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; border-right: 1px solid grey; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 65%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main .fa-arrows-alt::after { content: ' \f141'; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; } }
+
+@media only screen and (min-width: 1024px) { #main { background-color: #f8f8f8; padding-bottom: 200px; }
+  #main .fa-plus { margin-left: 5px; }
+  #main .main__div--h4 { margin-top: 30px; margin-left: 20px; }
+  #main .container-white { background-color: white; margin-top: 200px; border: 1px solid brown; text-align: right; padding: 20px 60px 20px 20px; }
+  #main .main__new--button { position: relative; right: 30px; }
+  #main .main__orders { margin-top: 50px; text-align: right; }
+  #main .input-group { display: inline-block; }
+  #main .main__order--type { margin-top: 30px; border-right: 1px solid grey; }
+  #main .input-new-order { margin-right: 10px; }
+  #main .new-order-p { width: 65%; }
+  #main .added__order__div { text-align: right; }
+  #main .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; }
+  #main .fa-arrows-alt { margin-left: 10px; }
+  #main .fa-arrows-alt:hover { cursor: grab; }
+  #main .fa-arrows-alt::after { content: ' \f141'; }
+  #main p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; } }
+
+@media only screen and (min-width: 320px) and (max-width: 639px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .button { text-align: center; margin-top: 20px; }
+  #write .write__add--button { margin-top: 10px; background-color: green; width: 50%; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }
+
+@media only screen and (min-width: 360px) and (max-width: 640px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .button { text-align: center; margin-top: 20px; }
+  #write .write__add--button { margin-top: 10px; background-color: green; width: 50%; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }
+
+@media only screen and (min-width: 414px) and (max-width: 767px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .button { text-align: center; margin-top: 20px; }
+  #write .write__add--button { margin-top: 10px; background-color: green; width: 50%; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 65%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .write__add--button { margin-top: 10px; background-color: green; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }
+
+@media only screen and (min-width: 992px) and (max-width: 1023px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .write__add--button { margin-top: 10px; background-color: green; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }
+
+@media only screen and (min-width: 1024px) { #write { display: none; background-color: #f8f8f8; padding-bottom: 200px; }
+  #write .container-white { background-color: white; border: 1px solid brown; text-align: right; padding: 50px 20px; }
+  #write input { width: 100%; text-align: right; padding-right: 10px; }
+  #write label { display: inline-block; border-radius: 0.1rem; }
+  #write .write__add--button { margin-top: 10px; background-color: green; }
+  #write p { display: inline-block; border: 1px solid grey; padding: 5px 10px 5px 5px; width: 85%; border-radius: 5px; margin-bottom: 30px; }
+  #write .custom-icon { border: 1px solid grey; border-radius: 5px; padding: 8px 5px; margin-left: 10px; } }

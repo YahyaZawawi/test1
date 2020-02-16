@@ -1,0 +1,60 @@
+// here you use ur mixin as partials
+// mixin use for many proparty in once and save them
+// to use mixin u need to write @include name of the mixin then ;
+@mixin send-now {
+  background-color: $color-primary-l;
+  width: 100%;
+  color: white;
+}
+// you can mix your mixin using @include as well
+@mixin send-now-with-marging {
+  @include send-now;
+  margin-top: 40px;
+}
+// google font use
+@mixin google-fonts($font) {
+  $font: unquote($font);
+  @import url(https://fonts.googleapis.com/css?family=#{$font});
+}
+// carousel
+@mixin carousel-larg {
+  height: 400px;
+}
+@mixin carousel-small {
+  height: 200px;
+}
+// PHONE SCREENS
+@mixin extra-small-phone-screen () {
+  @media only screen and (min-width:320px) and (max-width:639px) {
+    // @content to make it more flexble and use what ever we want here
+    @content;
+  }
+}
+@mixin small-phone-screen () {
+  @media only screen and (min-width:360px) and (max-width:640px) {
+    // @content to make it more flexble and use what ever we want here
+    @content;
+  }
+}
+@mixin larg-phone-screen () {
+  @media only screen and (min-width:414px) and (max-width:767px) {
+    @content;
+  }
+}
+@mixin taplet () {
+  @media only screen and (min-width:768px) and (max-width:991px) {
+    @content;
+  }
+}
+
+@mixin small-laptop () {
+  @media only screen and (min-width:992px) and (max-width:1023px) {
+    @content;
+  }
+}
+
+@mixin desktop-screen () {
+  @media only screen and (min-width:1024px) {
+    @content;
+  }
+}
